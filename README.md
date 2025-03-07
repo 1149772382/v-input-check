@@ -2,6 +2,11 @@
 自定义指令完成ElementUI中el-input数据输入限制。
 
 ## 使用方法
+```js
+// main.js
+import InputCheck from 'md-input-check' 
+Vue.use(InputCheck)
+```
 ```vue
 <!--ElementUI-->
  <el-input v-input-check="'toNonNegInt'" placeholder="输入内容" v-model="value1" ></el-input>

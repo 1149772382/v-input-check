@@ -1,6 +1,6 @@
 {
   "name": "md-input-check",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "自定义指令完成ElementUI中el-input数据输入限制。",
   "main": "./dist/input-check.umd.js",
   "scripts": {
@@ -14,10 +14,9 @@
   },
   "files": [
     "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
+    "package.json",
+    "webpack.prod.js",
+    "README.json"
   ],
   "keywords": [
     "el-input",
